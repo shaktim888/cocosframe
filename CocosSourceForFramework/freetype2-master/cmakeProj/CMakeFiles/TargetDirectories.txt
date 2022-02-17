@@ -1,0 +1,5 @@
+/Users/admin/Downloads/freetype2-master/cmakeProj/CMakeFiles/install.dir
+/Users/admin/Downloads/freetype2-master/cmakeProj/CMakeFiles/package.dir
+/Users/admin/Downloads/freetype2-master/cmakeProj/CMakeFiles/freetype.dir
+/Users/admin/Downloads/freetype2-master/cmakeProj/CMakeFiles/ALL_BUILD.dir
+/Users/admin/Downloads/freetype2-master/cmakeProj/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,2 @@
+#define cocos2d cocos
+#define rapidjson ccrapidjson

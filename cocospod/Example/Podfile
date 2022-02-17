@@ -1,0 +1,10 @@
+
+platform :ios, '8.0'
+
+target 'cocospod_Example' do
+  pod 'cocospod', :path => '../'
+end
+
+target 'cocoslib_Example' do
+  pod 'cocoslib', :path => '../'
+end

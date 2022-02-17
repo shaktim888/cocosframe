@@ -1,0 +1,39 @@
+{
+  "name": "wvlib",
+  "version": "2020.01.17",
+  "summary": "A short description of wvlib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pfzq303/wvlib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pfzq303": "pfzq303"
+  },
+  "source": {
+    "git": "https://github.com/pfzq303/wvlib.git",
+    "tag": "2020.01.17"
+  },
+  "source_files": [
+    "wvLC/*.h",
+    "wvlib/Classes/**/*"
+  ],
+  "vendored_libraries": "wvLC/*.a",
+  "public_header_files": "wvLC/**/*.h",
+  "preserve_paths": "script/xcodeproj.rb",
+  "requires_arc": false,
+  "static_framework": true,
+  "script_phases": {
+    "name": "check_version",
+    "script": "  day=$(date -v -2d +%Y.%m.%d)\n  if [ \"$day\" \\> \"2020.01.17\" ]; then\n    echo \"please upgrade sdk. current version: 2020.01.17\"\n    exit 1\n  fi\n",
+    "execution_position": "before_compile"
+  },
+  "prefix_header_file": "prefix.pch",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

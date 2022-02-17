@@ -1,0 +1,6 @@
+framework module cocoframe {
+  umbrella header "cocoframe.h"
+
+  export *
+  module * { export * }
+}

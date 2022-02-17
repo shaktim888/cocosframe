@@ -1,0 +1,43 @@
+{
+  "name": "cocospod",
+  "version": "0.1.0",
+  "summary": "A short description of cocospod.",
+  "ios": {
+    "vendored_frameworks": "framework/*.framework"
+  },
+  "resources": [
+    "res/*.*"
+  ],
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/admin/cocospod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "admin": "admin@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/admin/cocospod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "cocospod/Classes/**/*",
+  "frameworks": [
+    "CoreMotion",
+    "MediaPlayer",
+    "Security",
+    "UIKit",
+    "OpenGLES",
+    "QuartzCore",
+    "OpenAL",
+    "AudioToolbox",
+    "AVFoundation",
+    "Foundation"
+  ]
+}

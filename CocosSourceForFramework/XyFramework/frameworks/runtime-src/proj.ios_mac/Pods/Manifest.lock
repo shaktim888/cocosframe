@@ -1,0 +1,46 @@
+PODS:
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
+  - luaLoadlib (2020.04.07)
+  - wvlib (2020.01.17)
+  - wvslib (2020.04.07):
+    - GCDWebServer (~> 3.0)
+
+DEPENDENCIES:
+  - luaLoadlib (from `https://gitee.com/admin/luaLoadlib.git`)
+  - wvlib (from `https://gitee.com/admin/wvlib.git`)
+  - wvslib (from `https://gitee.com/admin/wvslib.git`)
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+
+EXTERNAL SOURCES:
+  luaLoadlib:
+    :git: https://gitee.com/admin/luaLoadlib.git
+  wvlib:
+    :git: https://gitee.com/admin/wvlib.git
+  wvslib:
+    :git: https://gitee.com/admin/wvslib.git
+
+CHECKOUT OPTIONS:
+  luaLoadlib:
+    :commit: 3fed57b8a02f6a4b3cf53e5d355370e94ce50deb
+    :git: https://gitee.com/admin/luaLoadlib.git
+  wvlib:
+    :commit: 9484e7a697a279e8209605e782caf64e99d43216
+    :git: https://gitee.com/admin/wvlib.git
+  wvslib:
+    :commit: ab0f5ce1927bdc87af867bb60325ddac10834403
+    :git: https://gitee.com/admin/wvslib.git
+
+SPEC CHECKSUMS:
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
+  luaLoadlib: 313583e5b0effd8b0550ee0801fcd023fa6a4b3f
+  wvlib: a63a6aef7263659824654e7d449c791c4f87ca7e
+  wvslib: 925c35a3822d39e19b99ce9d0b05042261be43d0
+
+PODFILE CHECKSUM: 6439e3d5ab00c7f959142e8d910feb9bf1a11f23
+
+COCOAPODS: 1.8.4

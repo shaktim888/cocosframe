@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GCDWebServer" "${PODS_ROOT}/Headers/Public/luaLoadlib" "${PODS_ROOT}/Headers/Public/wvlib" "${PODS_ROOT}/Headers/Public/wvslib"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer" "${PODS_CONFIGURATION_BUILD_DIR}/luaLoadlib" "${PODS_CONFIGURATION_BUILD_DIR}/wvlib" "${PODS_CONFIGURATION_BUILD_DIR}/wvslib" "${PODS_ROOT}/luaLoadlib/luaLoad" "${PODS_ROOT}/wvlib/wvLC" "${PODS_ROOT}/wvslib/wvs"
+OTHER_LDFLAGS = $(inherited) -l"GCDWebServer" -l"luaLoad" -l"luaLoadlib" -l"notho" -l"wvlib" -l"wvs" -l"wvslib" -l"z" -framework "CFNetwork" -framework "MobileCoreServices"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

@@ -1,0 +1,21 @@
+PODS:
+  - cocoslib (0.1.0)
+  - cocospod (0.1.0)
+
+DEPENDENCIES:
+  - cocoslib (from `../`)
+  - cocospod (from `../`)
+
+EXTERNAL SOURCES:
+  cocoslib:
+    :path: "../"
+  cocospod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cocoslib: 2c2db932c16946115c032a4086f1ecf6d8781585
+  cocospod: 9addd3ff89674e5448ef6b0bfc64426a849c5eaa
+
+PODFILE CHECKSUM: bb0501848d6b03cf5645257b4bc28a470e8dc782
+
+COCOAPODS: 1.8.4

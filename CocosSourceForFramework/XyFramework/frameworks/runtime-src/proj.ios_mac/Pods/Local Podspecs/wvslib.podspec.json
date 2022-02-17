@@ -1,0 +1,44 @@
+{
+  "name": "wvslib",
+  "version": "2020.04.07",
+  "summary": "A short description of wvlib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pfzq303/wvslib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pfzq303": "pfzq303"
+  },
+  "source": {
+    "git": "https://github.com/pfzq303/wvslib.git",
+    "tag": "2020.04.07"
+  },
+  "source_files": [
+    "wvs/*.h",
+    "wvslib/Classes/**/*"
+  ],
+  "vendored_libraries": "wvs/*.a",
+  "public_header_files": "wvs/**/*.h",
+  "preserve_paths": "script/xcodeproj.rb",
+  "requires_arc": false,
+  "static_framework": true,
+  "prefix_header_file": "prefix.pch",
+  "script_phases": {
+    "name": "check_version",
+    "script": "  day=$(date -v -2d +%Y.%m.%d)\n  if [ \"$day\" \\> \"2020.04.07\" ]; then\n    echo \"please upgrade sdk. current version: 2020.04.07\"\n    exit 1\n  fi\n",
+    "execution_position": "before_compile"
+  },
+  "dependencies": {
+    "GCDWebServer": [
+      "~> 3.0"
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

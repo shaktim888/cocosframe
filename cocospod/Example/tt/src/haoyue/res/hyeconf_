@@ -1,0 +1,44 @@
+{
+    "eventlist":[
+        {
+            "action" :"capturescreen",
+            "savename":"grabscreen_1.png",
+            "endcall":"onruleBtnClick",
+            
+            "timename" :"enterTransitionFinish",
+            "targetname" :"UILogin"
+        },
+        {
+            "action" :"delay",
+            "delaytime":"3",
+            "timename" :"enterTransitionFinish",
+            "targetname" :"rule"
+        },
+        {
+            "action" :"capturescreen",
+            "savename":"grabscreen_2.png",
+            "endcall":"onshadeClick",
+
+            "timename" :"enterTransitionFinish",
+            "targetname" :"rule"
+        },
+        {
+            "action":"callfunc",
+            "call":"onplayBtnClick",
+            "targetname" :"UILogin"
+        },
+        {
+            "action" :"delay",
+            "delaytime":"8",
+            "timename" :"enterTransitionFinish",
+            "targetname" :"gameScene"
+        },
+        {
+            "action" :"capturescreen",
+            "savename":"grabscreen_3.png",
+            "timename" :"enterTransitionFinish",
+            "targetname" :"gameScene"
+        }
+        
+    ]
+}

@@ -1,0 +1,4 @@
+return {
+    UI_REFRESH = "UI_REFRESH",
+    LANGUAGE_REFRESH = "LANGUAGE_REFRESH",
+}

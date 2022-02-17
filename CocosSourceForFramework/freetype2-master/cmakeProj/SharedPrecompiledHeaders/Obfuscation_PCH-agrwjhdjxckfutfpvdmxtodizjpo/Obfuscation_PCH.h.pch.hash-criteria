@@ -1,0 +1,22 @@
+-x
+c
+-target
+arm64-apple-ios8.0
+-fpascal-strings
+-O0
+-DCMAKE_INTDIR="Debug-iphoneos"
+-DFT2_BUILD_LIBRARY
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk
+-g
+-fembed-bitcode-marker
+-I/Users/admin/Documents/HYCloud/sdk/CocosSourceForFramework/freetype2-master/cmakeProj/Debug-iphoneos/include
+-I/Users/admin/Documents/HYCloud/sdk/CocosSourceForFramework/freetype2-master/cmakeProj/include
+-I/Users/admin/Documents/HYCloud/sdk/CocosSourceForFramework/freetype2-master/include
+-I/Users/admin/Documents/HYCloud/sdk/CocosSourceForFramework/freetype2-master/cmakeProj/freetype.build/Debug-iphoneos/freetype.build/DerivedSources-normal/arm64
+-F/Users/admin/Documents/HYCloud/sdk/CocosSourceForFramework/freetype2-master/cmakeProj/Debug-iphoneos
+-fvisibility=hidden
+aarch64-apple-darwin19.3.0
+"4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17)"
+SDK_PRODUCT_BUILD_VERSION=17B102
+17B102
